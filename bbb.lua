@@ -13,6 +13,6 @@ end)
 
 task.spawn(function()
    while task.wait(10) do
-	if getgenv().loaded then getgenv().loaded = false game:GetService('CoreGui'):WaitForChild('imgui'):Destroy() loadstring(game:HttpGet("https://raw.githubusercontent.com/41yX/congenial-chainsaw/main/aaa.txt"))() end
+	if getgenv().loaded then getgenv().loaded = false game:GetService('CoreGui'):WaitForChild('imgui'):Destroy() loadstring(game:HttpGet("https://raw.githubusercontent.com/41yX/congenial-chainsaw/main/aaa.lua"))() end
    end
 end)
